@@ -1,96 +1,83 @@
-html,
-body {
-  height: 100%;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eclipse 2023</title>
+    <link rel="stylesheet" href="styles.css">
 
-body {
-  margin: 0;
-  background: linear-gradient(45deg, #49a09d, #782ea9);
-  font-family: sans-serif;
-  font-weight: 100;
-}
 
-.container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
+<html>
+    <body>
 
-th,
-td {
-  padding: 15px;
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #fff;
-  text-align: center;
-}
+    </body>
+</html>
 
-th {
-  text-align: center;
-}
+<div class="container">
 
-thead th {
-  background-color: #55608f;
-}
+    <table >
+        <thead>
+            <th>Medal Count</th>
+            <th ><svg height = 10px width = 10px>
+                <circle  r="5px" cx ="50%" cy = "50%" fill="gold" />
+              </svg>
+              </th>
+              <th ><svg height = 10px width = 10px>
+                <circle  r="5px" cx ="50%" cy = "50%" fill="white" />
+              </svg>
+              </th>
+              <th ><svg height = 10px width = 10px>
+                <circle  r="5px" cx ="50%" cy = "50%"  fill="indianred" />
+              </svg>
+              </th>             
+            <th ><svg height = 10px width = 10px>
+                <circle  r="5px" cx ="50%" cy = "50%"  fill="burlywood" />
+              </svg>
+              </th>
+        </thead>
+        <tbody colspan =4>
+            <tr>
+              <td>UG 2022</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>UG 2021</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>UG 2020</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>UG 2019</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>UG 2018</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          </tbody>
 
-tbody tr:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
 
-tbody td {
-  position: relative;
-}
 
-tbody td:hover:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: -9999px;
-  bottom: -9999px;
-  background-color: rgba(255, 255, 255, 0.2);
-  z-index: -1;
-}
+    </table>
 
-.medal_table {
-  border-collapse: collapse;
-  font-family:"Arial", sans-serif;
-  font-size:16px;
-}
-.medal_table th {
-  padding: 10px 40px 10px 0px;
-}
-.medal_table td {
-  padding: 10px 20px 10px 2px;
-}
-.medal_table tr:nth-child(2n) {
-  background-color:#fdcad0;
-}
-.medal_table td:first-child {
-  font-style:italic;
-  color:#999999;
-  padding-right:20px;
-  padding-left:20px;
-}
-.medal_table td:nth-child(3) {
-  padding-right:40px;
-}
-.medal_table th:last-child,
-.medal_table td:last-child {
-  font-weight:bold;
-  text-align:right;
-  padding-right:20px;
-}
-.medal_table .imgpad{
-padding-left: 0px;
-}
-.medal_table .medal_title{
-padding-left: 15px;
-}
+
+</div>
